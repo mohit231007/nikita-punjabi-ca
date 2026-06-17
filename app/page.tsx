@@ -2,6 +2,7 @@ import { Hero } from "@/components/dom/Hero";
 import { ServicesGrid } from "@/components/dom/ServicesGrid";
 import { ProofStrip } from "@/components/dom/ProofStrip";
 import { ProcessTimeline } from "@/components/dom/ProcessTimeline";
+import { AboutBlock } from "@/components/dom/AboutBlock";
 import { FAQSection } from "@/components/dom/FAQSection";
 import { ContactSection } from "@/components/dom/ContactSection";
 import { JsonLd } from "@/components/dom/JsonLd";
@@ -17,6 +18,7 @@ export default function HomePage() {
       <ProofStrip />
       <ServicesGrid />
       <ProcessTimeline />
+      <AboutBlock />
       <FAQSection />
       <ContactSection />
     </>
